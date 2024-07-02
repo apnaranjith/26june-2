@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id1{
+            background-color:rgba(50, 92, 168);
+            border-radius:50%;
+            height:20px;
+            width:20px;
+            display:inline-block;
+            
+        
+            
+            animation-name:logo;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+            animation-timing-function:ease;
+            animation-delay:0s;
+            animation-direction:reverse;
+            
+        }
+        #id2{
+            background-color:rgb(230, 30, 30);
+            border-radius:50%;
+            height:20px;
+            width:20px;
+            display:inline-block;
+    
+        
+            animation-delay:2s;
+            animation-name:logo;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-timing-function:ease-in;
+            animation-direction:reverse;
+            
+
+          
+        }
+        #id3{
+            background-color:rgb(217, 230, 30);
+            border-radius:50%;
+            height:20px;
+            width:20px;
+            display:inline-block; 
+            
+            animation-delay:3s;
+            animation-name:logo;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+            animation-timing-function:ease-out;
+            animation-direction:reverse;
+           
+
+           
+        }
+        #id4{
+            background-color:rgb(50, 230, 30);
+            border-radius:50%;
+            height:20px;
+            width:20px;
+            display:inline-block;
+            animation-timing-function:linear;
+            animation-delay:4s;
+            
+            
+            animation-name:logo;
+            animation-duration:6s;
+            animation-iteration-count:infinite;
+            animation-direction:reverse;
+           
+        }
+        @keyframes logo{
+            0%{
+             
+              transform:translateY(0px);
+            
+            
+            }
+            25%
+            {
+               transform:translateY(-5px); 
+             
+            }
+            50%{
+                transform:translateY(-5px);  
+              
+            }
+            75%{
+               transfrom:translateY(-5px);
+                
+            }
+            100%{
+            
+               transform:translateY(0px);
+            }
+        }
+        div{
+            margin:5px;
+        }
+    </style>
+
+    
+
+</head>
+<body>
+    <div id="id1">
+
+    </div>
+    <div id="id2"></div>
+    <div id="id3"></div>
+    <div id="id4"></div>
+    
+</body>
+</html>
